@@ -1,0 +1,17 @@
+<h1>Actividad pipes</h1>
+<hr>
+<div class="punto1Input">
+    <h2>Primera letra de cada palabra en mayúscula(input)</h2>
+    <mat-form-field class="example-full-width">
+        <mat-label>Escribe algo</mat-label>
+        <input matInput placeholder="Ej. Holi" [(ngModel)]="inputTexto">
+    </mat-form-field>
+    <p>{{inputTexto|mayus1}}</p>
+</div>
+<hr>
+<div class="punto1Texto">
+    <h2>Primera letra de cada palabra en mayúscula</h2>
+    <p><b>Original: </b>{{texto}}</p>
+    <p> {{texto|mayus1}}</p>
+</div>
+<hr>
