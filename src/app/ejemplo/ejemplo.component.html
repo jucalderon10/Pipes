@@ -6,12 +6,27 @@
         <mat-label>Escribe algo</mat-label>
         <input matInput placeholder="Ej. Holi" [(ngModel)]="inputTexto">
     </mat-form-field>
-    <p>{{inputTexto|mayus1}}</p>
+    <p><b>Resultado: </b>{{inputTexto|mayus1}}</p>
 </div>
 <hr>
 <div class="punto1Texto">
     <h2>Primera letra de cada palabra en mayúscula</h2>
     <p><b>Original: </b>{{texto}}</p>
-    <p> {{texto|mayus1}}</p>
+    <p><b>Resultado: </b>{{texto|mayus1}}</p>
+</div>
+<hr>
+<div class="punto3Texto">
+    <h2> Valor elevado al cuadrado(input)</h2>
+    <mat-form-field class="example-full-width">
+        <mat-label>Escribe un numero</mat-label>
+        <input matInput placeholder="Ej. 2" [(ngModel)]="numeroInput" type="number">
+    </mat-form-field>
+    <p><b>Resultado: </b>{{numeroInput|cuadrado}}</p>
+</div>
+<hr>
+<div class="punto1Texto">
+    <h2>Valor elevado al cuadrado</h2>
+    <p><b>Original: </b>{{numero}}</p>
+    <p><b>Resultado: </b>{{numero|cuadrado}}</p>
 </div>
 <hr>

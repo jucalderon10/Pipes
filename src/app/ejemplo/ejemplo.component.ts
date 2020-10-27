@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class EjemploComponent implements OnInit {
   texto: string;
   inputTexto: string;
+  numero: number;
+  numeroInput: number;
 
   constructor() { 
     this.texto ="hola como estas";
+    this.numero = 4;
   }
 
   ngOnInit(): void {

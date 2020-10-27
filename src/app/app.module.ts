@@ -9,12 +9,16 @@ import { Mayus1Pipe } from './pipes/mayus1.pipe';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
+import { CuadradoPipe } from './pipes/cuadrado.pipe';
+import { AlternarPipe } from './pipes/alternar.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     EjemploComponent,
-    Mayus1Pipe
+    Mayus1Pipe,
+    CuadradoPipe,
+    AlternarPipe
   ],
   imports: [
     BrowserModule,
