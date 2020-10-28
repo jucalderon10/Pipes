@@ -11,6 +11,7 @@ import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from '@angular/forms';
 import { CuadradoPipe } from './pipes/cuadrado.pipe';
 import { AlternarPipe } from './pipes/alternar.pipe';
+import { FechasPipe } from './pipes/fechas.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AlternarPipe } from './pipes/alternar.pipe';
     EjemploComponent,
     Mayus1Pipe,
     CuadradoPipe,
-    AlternarPipe
+    AlternarPipe,
+    FechasPipe
   ],
   imports: [
     BrowserModule,

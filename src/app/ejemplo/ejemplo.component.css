@@ -1,0 +1,100 @@
+
+.general{
+    background-image: url('https://wallpaperaccess.com/full/869.jpg');
+
+}
+.cabecera{
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://wallpaperaccess.com/full/869.jpg');
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h2{
+    color: #E91E63 ;
+}
+
+.contenido{
+text-align: center;
+padding: 0 1rem;
+margin: 1rem;
+}
+
+.punto1Input{
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+.punto1Texto{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.punto3Input{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.punto3Texto{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.punto4Input{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.punto4Texto{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.punto2Texto{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

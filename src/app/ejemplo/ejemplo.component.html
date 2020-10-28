@@ -1,32 +1,67 @@
-<h1>Actividad pipes</h1>
-<hr>
-<div class="punto1Input">
-    <h2>Primera letra de cada palabra en mayúscula(input)</h2>
-    <mat-form-field class="example-full-width">
-        <mat-label>Escribe algo</mat-label>
-        <input matInput placeholder="Ej. Holi" [(ngModel)]="inputTexto">
-    </mat-form-field>
-    <p><b>Resultado: </b>{{inputTexto|mayus1}}</p>
+<div class="general">
+<div class="cabecera">
+    <h1>Actividad pipes</h1>
 </div>
-<hr>
-<div class="punto1Texto">
-    <h2>Primera letra de cada palabra en mayúscula</h2>
-    <p><b>Original: </b>{{texto}}</p>
-    <p><b>Resultado: </b>{{texto|mayus1}}</p>
+
+<div class="contenido">
+
+    <div class="punto1Input">
+        <h2>Primera letra de cada palabra en mayúscula(input)</h2>
+        <mat-form-field class="example-full-width">
+            <mat-label>Escribe algo</mat-label>
+            <input matInput placeholder="Ej. Holi" [(ngModel)]="inputTexto">
+        </mat-form-field>
+        <p><b>Resultado: </b>{{inputTexto|mayus1}}</p>
+    </div>
+    
+    <div class="punto1Texto">
+        <h2>Primera letra de cada palabra en mayúscula</h2>
+        <p><b>Original: </b>{{texto}}</p>
+        <p><b>Resultado: </b>{{texto|mayus1}}</p>
+    </div>
+    
+    <div class="punto3Input">
+        <h2> Valor elevado al cuadrado(input)</h2>
+        <mat-form-field class="example-full-width">
+            <mat-label>Escribe un numero</mat-label>
+            <input matInput placeholder="Ej. 2" [(ngModel)]="numeroInput" type="number">
+        </mat-form-field>
+        <p><b>Resultado: </b>{{numeroInput|cuadrado}}</p>
+    </div>
+    
+    <div class="punto3Texto">
+        <h2>Valor elevado al cuadrado</h2>
+        <p><b>Original: </b>{{numero}}</p>
+        <p><b>Resultado: </b>{{numero|cuadrado}}</p>
+    </div>
+    
+    <div class="punto4Input">
+        <h2>Letras del texto alternadas(input)</h2>
+        <mat-form-field class="example-full-width">
+            <mat-label>Escribe algo</mat-label>
+            <input matInput placeholder="Ej. Hola" [(ngModel)]="newTextInput">
+        </mat-form-field>
+        <p><b>Resultado: </b>{{newTextInput|alternar}}</p>
+    </div>
+    
+    <div class="punto4Texto">
+        <h2>Letras del texto alternadas</h2>
+        <p><b>Original: </b>{{newText}}</p>
+        <p><b>Resultado: </b>{{newText|alternar}}</p>
+    </div>
+    
+    <div class="punto2Texto">
+        <h2>Texto basado en una fecha</h2>
+        <p><b>Original: </b>{{fechaActual1}}</p>
+        <p><b>Resultado: </b>{{fechaActual1|fechas}}</p>
+    </div>
+    
+    <div class="punto2Texto">
+        <h2>Texto basado en una fecha</h2>
+        <p><b>Original: </b>{{fechaActual2}}</p>
+        <p><b>Resultado: </b>{{fechaActual2|fechas}}</p>
+    </div>
+
 </div>
-<hr>
-<div class="punto3Texto">
-    <h2> Valor elevado al cuadrado(input)</h2>
-    <mat-form-field class="example-full-width">
-        <mat-label>Escribe un numero</mat-label>
-        <input matInput placeholder="Ej. 2" [(ngModel)]="numeroInput" type="number">
-    </mat-form-field>
-    <p><b>Resultado: </b>{{numeroInput|cuadrado}}</p>
 </div>
-<hr>
-<div class="punto1Texto">
-    <h2>Valor elevado al cuadrado</h2>
-    <p><b>Original: </b>{{numero}}</p>
-    <p><b>Resultado: </b>{{numero|cuadrado}}</p>
-</div>
-<hr>
+
